@@ -13,7 +13,6 @@ def findFibSum(n):
         a=b
         b=c
     return sum1
-
         
 
 t = int(input().strip())
