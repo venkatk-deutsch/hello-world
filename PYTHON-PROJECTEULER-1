@@ -1,4 +1,5 @@
 #!/bin/python3
+#To sum all even fibonnaci numbers till n
 
 import sys
 def findFibSum(n):
