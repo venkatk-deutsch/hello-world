@@ -1,0 +1,22 @@
+#!/bin/python3
+
+import sys
+def findFibSum(n):
+    a=1
+    b=1
+    c=0
+    sum1=0
+    while c<n:
+        c=a+b
+        if c%2==0 and c<n:
+            sum1=sum1+c
+        a=b
+        b=c
+    return sum1
+
+        
+
+t = int(input().strip())
+for a0 in range(t):
+    n = int(input().strip())
+    print(findFibSum(n))
